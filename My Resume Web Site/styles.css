@@ -1,0 +1,191 @@
+*{
+padding:0;
+margin:0;
+list-style: none;
+box-sizing: border-box;
+font-family: 'Merriweather','Poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+    background: rgb(57, 162, 176);
+}
+.container{
+    margin:5px auto;
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 100px;
+    background:rgb(132, 132, 231);
+    display: grid;
+    height: 100vh;
+    grid-template-columns:1fr 2fr;
+}
+.container .leftside{
+    position: relative;
+    background-color: rgba(140, 156, 218, 0.62);
+    padding: 40px;
+    color:rgb(11, 11, 11);
+}
+.container .rightside{
+    position: relative;
+    background-color:  rgba(190, 197, 224, 0.62);
+    padding:40px;
+}
+.profile{
+    position: relative;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.profile .imgbox{
+    padding-bottom:20px;
+    overflow: hidden;
+    position: relative;
+    height: 200px;
+    width:200px;
+    border-radius: 50%;
+    border-color: rgb(37, 20, 108);
+    border-width: 4px;
+    border-style: solid;
+}
+.profile .imgbox img{
+    position:absolute;
+    top: -9px;
+    left:0;
+    height:120%;
+    width:100%;
+   
+}
+.Profile-Info p{
+    line-height: 1.5;
+    padding-top:10px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.2;
+    color:rgb(15, 15, 16);
+
+}
+.contact{
+   padding-top: 10px;
+   line-height: 1.5;
+
+}
+.contact ul #mail{
+    display: inline-flex;
+}
+.contact ul li a{
+    text-decoration: none;
+    color:rgb(15, 16, 16);
+
+}
+.hobbies{
+    padding-top: 10px;
+}
+p{
+    color:rgb(28, 10, 34);
+}
+.text{
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+.hobbies ul li{
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.5;
+   
+}
+.container .leftside h2{
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color:rgb(15, 6, 80)
+}
+.container .rightside h3{
+    text-transform: uppercase;
+    font-weight: bolder;
+    color:rgb(38, 5, 70)
+}
+
+.edu{
+    padding-top: 15px;
+}
+.edu h5{
+    font-size: 17px;
+    padding-top: 5px;
+}
+.edu .schl{
+    padding-top: 5px;
+}
+.edu .schl p{
+    font-size: 16px;
+    font-weight: 600;
+
+}
+.wexp{
+    padding-top: 15px;
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid green;
+    padding-bottom: 10px;
+}
+.wexp section{
+    padding-top: 5px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.skill{
+    padding-top: 15px;
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid green;
+    padding-bottom: 10px;
+
+}
+.skill section{
+    padding-top: 5px;
+    font-size: 15px;
+}
+.skill section p{
+    font-size: 16px;
+    font-weight: 600;
+}
+.langu{
+    padding-top: 20px;
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid green;
+    padding-bottom: 10px;
+}
+.others{
+    padding-top: 15px;
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid green;
+}
+.others section{
+    padding-top: 5px;
+    font-size: 16px;
+    font-weight: 600;
+}
+#myProgress {
+    margin-top: 10px;
+    width: 100%;
+    background-color: grey;
+  }
+  
+#myBar {
+    width: 80%;
+    height: 8px;
+    background-color: rgb(42, 10, 147);
+  }
+  .langu h4{
+    padding-top: 10px;
+  }
+sectio p{
+    text-transform: capitalize;
+}
